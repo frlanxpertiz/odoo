@@ -1022,19 +1022,19 @@ take the following attributes:
 
     ``hour:half``: records times snap to half hours (ex: 7:12 becomes 7:30)
 
-    ``hour:quarter``: records times snap to half hours (ex: 7:12 becomes 7:15)
+    ``hour:quarter``: records times snap to quarter hours (ex: 7:12 becomes 7:15)
 
   * Possible values for scale ``week`` are (default: ``day:half``):
 
     ``day``: records times snap to full days (ex: 7:28 AM becomes 11:59:59 PM)
 
-    ``day:half``: records times snap to half hours (ex: 7:28 AM becomes 12:00 PM)
+    ``day:half``: records times snap to half days (ex: 7:28 AM becomes 12:00 PM)
 
   * Possible values for scale ``month`` are (default: ``day:half``):
 
     ``day``: records times snap to full days (ex: 7:28 AM becomes 11:59:59 PM)
 
-    ``day:half``: records times snap to half hours (ex: 7:28 AM becomes 12:00 PM)
+    ``day:half``: records times snap to half days (ex: 7:28 AM becomes 12:00 PM)
 
   * Scale ``year`` always snap to full day.
 
